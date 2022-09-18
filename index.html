@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="fundo">
+        <form class="formulario">
+            <h1>formulario</h1>
+            <label>nome:</label>
+            <input type="text" value="" />
+
+            <label>email:</label>
+            <input type="email"/>
+
+            <label>data de nascimento:</label>
+            <input type="date">
+
+            <label>sexo</label>
+            <select>
+                <option></option>
+                <option>masculino</option>
+                <option>feminino</option>
+                <option>prefiro não dizer</option>
+            </select>
+            
+            <label>estado</label>
+            <select>
+                <option></option>
+                <option>rj</option>
+                <option>sp</option>
+                <option>mg</option>
+            </select>
+
+            <label>cidade</label>
+            <select>
+                <option></option>
+                <option>MG-belo horizonte</option>
+                <option>RJ-rio da janeiro</option>
+                <option>SP-são paulo</option>
+            </select>
+        </form>
+        <button id="enviar">enviar</button>
+        <div class="frase" id="frase">
+            <p>agora espere 365 dias para o resultado</p>
+            <i class="fas fa-check" id="icone"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
